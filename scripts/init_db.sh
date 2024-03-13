@@ -50,7 +50,7 @@ done
 
 export DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
 
-# sqlx database create
+sqlx database create
 
 # Run migration
 sqlx migrate run
